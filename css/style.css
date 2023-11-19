@@ -1,3 +1,5 @@
+/* Header */
+
 .nav-inicio {
     background-color: rgba(59, 148, 203, 0.802) !important;
     position: fixed;
@@ -8,6 +10,11 @@
     background-color: rgba(59, 148, 203, 0.802) !important;
     position: relative;
     width: 100%;
+}
+
+.container-fluid nav {
+    display: flex;
+    justify-content: end;
 }
 
 .navbar-brand img {
@@ -26,11 +33,12 @@
     text-shadow: 0 0 5px #1b336656;
 }
 
-
 .login:hover {
     color: rgb(206, 134, 0);
     text-shadow: 0 0 5px rgba(255, 166, 0, 0.554);
 }
+
+/* Jumbotron */
 
 .jumbotron {
     background-image: url(../imgs/HEADER2-IMG.jpg);
@@ -59,7 +67,10 @@
 
 .call p{
     width: 35%;
+    text-shadow: -2px -2px 3px #000;
 }
+
+/* Promociones */
 
 .title-prom {
     text-align: center;
@@ -81,6 +92,8 @@
 .prom a {
     margin: auto 0;
 }
+
+/* Footer */
 
 footer {
     text-align: center;
