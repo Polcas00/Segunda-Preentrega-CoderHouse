@@ -16,7 +16,7 @@
 
 <body>
     <!-- Navbar inicio -->
-    <nav class="navbar navbar-expand-md navbar-dark nav-total">
+    <header class="navbar navbar-expand-md navbar-dark nav-total">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img src="../imgs/HORIZONTAL-COLOR-SIN-FONDO-1.png" alt="" class="img-fluid">
@@ -24,7 +24,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+            <nav class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link fs-5 fw-bolder" href="../index.html">Inicio</a>
@@ -42,20 +42,20 @@
                         <a class="nav-link fs-5 fw-bolder login" href="./login.html">Login</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </nav>
+    </header>
     <!-- Navbar fin -->
     <!-- Formulario inicio  -->
     <div class="container-fluid container-form">
         <form class="card form mt-5 mb-5 p-5" style="width: 48rem;" action="" method="post" name="miformulario">
             <h1 class="card-title text-center text-white">Contacto</h1>
             <h4 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non molestias iste!</h4>
-            <input class="border-0 p-2 mt-3" type="text" name="name" id="" placeholder="Nombre">
-            <input class="border-0 p-2" type="text" name="last-name" id="" placeholder="Apellido">
-            <input class="border-0 p-2" type="email" name="email" id="" placeholder="Correo">
-            <input class="border-0 p-2" type="number" name="cel" id="" placeholder="Telefono">
-            <textarea class="border-0 p-2" name="comments" id="comments" cols="30" rows="10" placeholder="Escribe tu comentario!"></textarea>
+            <input class="p-2 mt-3" type="text" name="name" id="" placeholder="Nombre">
+            <input class="p-2" type="text" name="last-name" id="" placeholder="Apellido">
+            <input class="p-2" type="email" name="email" id="" placeholder="Correo">
+            <input class="p-2" type="number" name="cel" id="" placeholder="Telefono">
+            <textarea class="p-2" name="comments" id="comments" cols="30" rows="5" placeholder="Escribe tu comentario!"></textarea>
             <input class="btn btn-warning p-2" type="submit" name="" id="submit">
         </form>
     </div>
